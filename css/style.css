@@ -1,0 +1,42 @@
+*{
+    /* margin: 0px; */
+    padding: 0px;
+    box-sizing: border-box;
+}
+table{
+    border: 4px solid red;
+    padding: 16px;
+    border-collapse: collapse;
+    background-color: wheat;       
+}
+
+th, td{
+    padding: 10px;
+    border: 4px solid black ;
+    
+}
+
+.text{
+    color: blue;
+}
+.text-blue{
+    color: red;
+}
+
+#system{
+    margin-top: 30px;
+}
+
+tfoot td{
+    /* padding-left: 50px; */
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+
+.man{
+    border: 3px solid red;
+    margin:10px;
+    
+}

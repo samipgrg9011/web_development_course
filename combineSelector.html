@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combineSelector</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            height: 200vh;
+        }
+        /* descendent */
+        /* space bahneko descendent
+        descendent ma child linxa
+        and ma child linna
+        
+        */
+        .box{
+        border: 2px solid black;
+        }
+
+        .box:hover{
+            border: 2px solid green;
+            box-shadow: 11px 12px 34px;
+        }
+        div.active{
+            border: 2px solid blue;
+        }
+        
+        div .text-red{
+            color: red;
+        }
+        
+        /* or */
+        h1,h2,h3,li{ 
+            margin: 10px;
+
+        }  
+/* 
+        h1{
+            margin: 10px;
+        }
+
+        h2{
+            margin: 10px;
+        }
+
+        h3{
+            margin: 10px;
+        }
+         */
+        
+        a.active{
+            color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+        <a href="./aboutus.html">aboutus</a>
+        <a href="./home.html">home</a>
+        <a href="./contact.html">contact</a>
+        <a href="./course/upcoming'/qa.html">qa</a>
+        <a href="./course/web.html">web</a>
+        <a href="#" class="active"> combineSelector</a>
+        
+
+
+    
+
+    </ul>
+    <h1> Combine Selector</h1>
+    <h2> Selector</h2>
+    <ul>
+        <li> universal</li>
+        <li>id</li>
+        <li>class</li>
+        <li>element/tag</li>
+    </ul>
+
+    <h2>combineSelector</h2>
+    <ul>
+        <li>descendent</li>
+        <li>or</li>
+        <li>and</li>
+        <li>general</li>
+        <li>adjacent</li>
+    </ul>
+
+    <h2>Box sizing</h2>
+    <div class="box">
+        <p class="text-red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat assumenda repudiandae non porro optio iure earum velit suscipit minima, reprehenderit incidunt magni aliquid officia delectus laudantium iusto minus provident, esse vero rerum. Aliquam ex quo recusandae amet, molestiae quaerat. Rerum, temporibus reprehenderit. Vitae dolores officiis dicta! Commodi, necessitatibus adipisci!</p>
+
+        <p class="text-red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat assumenda repudiandae non porro optio iure earum velit suscipit minima, reprehenderit incidunt magni aliquid officia delectus laudantium iusto minus provident, esse vero rerum. Aliquam ex quo recusandae amet, molestiae quaerat. Rerum, temporibus reprehenderit. Vitae dolores officiis dicta! Commodi, necessitatibus adipisci!</p>
+
+    </div>
+
+    <br>
+
+    <div class="box active">
+        <p class="text-red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat assumenda repudiandae non porro optio iure earum velit suscipit minima, reprehenderit incidunt magni aliquid officia delectus laudantium iusto minus provident, esse vero rerum. Aliquam ex quo recusandae amet, molestiae quaerat. Rerum, temporibus reprehenderit. Vitae dolores officiis dicta! Commodi, necessitatibus adipisci!</p>
+
+        <p class="text-red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat assumenda repudiandae non porro optio iure earum velit suscipit minima, reprehenderit incidunt magni aliquid officia delectus laudantium iusto minus provident, esse vero rerum. Aliquam ex quo recusandae amet, molestiae quaerat. Rerum, temporibus reprehenderit. Vitae dolores officiis dicta! Commodi, necessitatibus adipisci!</p>
+
+    </div>
+    
+        <!-- <p class="man">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat assumenda repudiandae non porro optio iure earum velit suscipit minima, reprehenderit incidunt magni aliquid officia delectus laudantium iusto minus provident, esse vero rerum. Aliquam ex quo recusandae amet, molestiae quaerat. Rerum, temporibus reprehenderit. Vitae dolores officiis dicta! Commodi, necessitatibus adipisci!</p> -->
+
+        <!-- semantic tag   -->
+    <footer>
+
+    </footer>
+</body>
+</html>
